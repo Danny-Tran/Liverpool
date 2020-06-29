@@ -2,7 +2,6 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 
 import logo from '../../Resources/images/logos/liverpool_logo.png';
-import mcity from '../../Resources/images/logos/manchester_city_logo.png'
 
 
 export const PoolLogo = (props) => {
