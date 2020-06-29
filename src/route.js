@@ -1,11 +1,12 @@
 import React from 'react';
+import Layout from'./HighOrderComponent/Layout';
 
 
 const Routes = (props) => {
   return (
-    <div>
-      Hello World!!!!
-    </div>
+    <Layout>
+      second lines
+    </Layout>
   )
 }
 
