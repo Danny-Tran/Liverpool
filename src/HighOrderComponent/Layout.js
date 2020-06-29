@@ -6,8 +6,7 @@ const { unstable_renderSubtreeIntoContainer } = require("react-dom");
 const Layout = (props) => {
     return (
         <div>
-            <Header></Header>
-            Hello World from layout    
+            <Header/>
             {props.children}         
         </div>
     );
