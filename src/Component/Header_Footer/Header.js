@@ -13,7 +13,7 @@ class Header extends Component {
             <AppBar
                 position = 'fixed'
                 style = {{
-                    backgroundColor: 'rgb(211,23,30)',
+                    backgroundColor: '#cc0033',
                     boxShadow: 'none',
                     padding: '10px 0',
                     borderBottom: '2px solid #00285e',
