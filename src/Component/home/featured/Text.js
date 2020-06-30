@@ -25,7 +25,8 @@ class Text extends Component {
                         className='featured_number'
                         style={{
                             opacity,
-                            transform: `translate(260px, 170px) rotateY(${rotate}deg)`
+                            transform: `translate(260px, 170px) rotateY(${rotate}deg)`,
+                            fontFamily:'Notable'
                         }}
                     >
                         6
