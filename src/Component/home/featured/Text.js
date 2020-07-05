@@ -115,7 +115,7 @@ class Text extends Component {
             timing: {duration: 800, delay:500, ease: easePolyOut}
         }}
     >
-        {({opacity, x, y})=>{
+        {({opacity})=>{
             return (
                 <div 
                     className='featured_player'
