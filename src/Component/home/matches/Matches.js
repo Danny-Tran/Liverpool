@@ -1,10 +1,12 @@
 import React from 'react';
+import { Tag } from '../../ui/misc';
+
 
 const Matches = () => {
     return (
         <div className= 'home_matches_wrapper'>
             <div className= 'container'>
-                TAG
+                <Tag/>
 
                 BLOCK
 
