@@ -6,7 +6,16 @@ const Matches = () => {
     return (
         <div className= 'home_matches_wrapper'>
             <div className= 'container'>
-                <Tag/>
+                <Tag
+                    bck= '#541818'
+                    size= '50px'
+                    color= '#ffffff'
+                    padding= '5px 10px'
+                    display= 'inLine-block'
+                    font= 'Roboto'
+                >
+                Matches
+                </Tag>
 
                 BLOCK
 

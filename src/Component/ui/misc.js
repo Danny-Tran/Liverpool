@@ -3,7 +3,18 @@ import { Link } from 'react-router-dom';
 
 export const Tag = (props) => {
     
-    const template = <div>TAG</div>
+    const template = <div
+        style = {{
+            background: props.bck,
+            fontSize: props.size,
+            color: props.color,
+            padding: props.padding,
+            display: props.display,
+            fontFamily: props.font
+        }}
+    >
+        {props.children}
+    </div>
 
     if (props.link) {
         return (<Link to= {props.linkto}>
