@@ -8,10 +8,16 @@ class Blocks extends Component {
         matches:[]
     }
     
+    showMatches = () => (
+        <div>
+            Matches!!!!!
+        </div>
+    )
+
     render() {
         return (
-            <div>
-                
+            <div className='home_matches'>
+                {this.showMatches(this.state.matches)}
             </div>
         );
     }
