@@ -1,6 +1,9 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
+import { firebaseDB } from '../../firebase';
 
+
+// tag component that created for matches 
 export const Tag = (props) => {
     
     const template = <div
@@ -24,4 +27,17 @@ export const Tag = (props) => {
     } else {
         return template
     }
+}
+
+// function looping through firebase and store the data passing it to blocks
+export const firebaseLooper = (snapshot) => {
+    const data = [];
+
+    snapshot.forEach((snap)=>{
+        data.push({
+            ...snap.val(),
+            id: snap.key
+        })
+    });
+    return data
 }

@@ -2,10 +2,13 @@ import React from 'react';
 import { Tag } from '../../ui/misc';
 import Blocks from './Blocks'
 
+
+// create matches load from firebase 
 const Matches = () => {
     return (
         <div className= 'home_matches_wrapper'>
             <div className= 'container'>
+                {/* reuseable component from MISC FOLDER */}
                 <Tag
                     bck= '#541818'
                     size= '50px'
