@@ -12,13 +12,18 @@ const firebaseConfig = {
     messagingSenderId: "43270334679",
     appId: "1:43270334679:web:ec210702f8c11ac3d82892",
     measurementId: "G-GVCJD0SGF3"
-  };
-  // Initialize Firebase
-  firebase.initializeApp(firebaseConfig);
+}; 
+
+// Initialize Firebase
+firebase.initializeApp(firebaseConfig);
 
 
-  const firebaseDB = firebase.database();
+const firebaseDB = firebase.database();
 
-  firebaseDB.ref('matches').once('value').then((snapshot)=>{
-    console.log(snapshot.val())
-  })
+const firebaseMatches = firebaseDB.ref('matches')
+
+export {
+  firebaseMatches,
+  firebaseDB,
+}
+
