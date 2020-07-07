@@ -19,7 +19,18 @@ const Matches = () => {
 
                 BLOCK
 
-                TAG
+                <Tag
+                    bck= '#ffffff'
+                    size= '22px'
+                    color= '#541818'
+                    padding= '5px 10px'
+                    display= 'inLine-block'
+                    font= 'Roboto'
+                    link= {true}
+                    linkto= '/the_team'
+                >
+                    See more matches
+                </Tag>
                 
             </div>
         </div>
