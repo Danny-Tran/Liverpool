@@ -13,11 +13,12 @@ const MatchesBlock = ({match}) => {
             <div className='match_wrapper'>
                 <div className='match_top'>
                     <div className='left'>
-
+                        <div className='icon' style={{background:`url(/images/team_icons/${match.localThmb}.png)`}}></div>
+                        <div className='team_name' font='Roboto'>{match.local}</div>
                     </div>
 
                     <div className='right'>
-
+                        { match.final ? match.resultLocal:'-'}
                     </div>
                 </div>
             </div>
