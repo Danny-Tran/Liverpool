@@ -1,6 +1,6 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import { firebaseDB } from '../../firebase';
+// import { firebaseDB } from '../../firebase';
 
 
 // tag component that created for matches 
