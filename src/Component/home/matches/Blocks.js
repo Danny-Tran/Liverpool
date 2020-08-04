@@ -19,7 +19,6 @@ class Blocks extends Component {
             this.setState({
                 matches: newArray(matches)
             })
-            // console.log(matches);
         })
     }
     
