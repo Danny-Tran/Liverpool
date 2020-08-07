@@ -13,7 +13,8 @@ export const Tag = (props) => {
             color: props.color,
             padding: props.padding,
             display: props.display,
-            fontFamily: props.font
+            fontFamily: props.font,
+            ...props.add
         }}
     >
         {props.children}
