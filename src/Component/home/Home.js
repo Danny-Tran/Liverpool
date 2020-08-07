@@ -1,6 +1,7 @@
 import React from 'react';
 import Featured from './featured';
 import Matches from './matches/Matches';
+import MeetPlayers from './meetPlayers';
 
 // Home page for feature player and matches from firebase
 const Home = () => {
@@ -8,6 +9,7 @@ const Home = () => {
         <div className='bck_blue'>
             <Featured/>
             <Matches/>
+            <MeetPlayers/>
         </div>
     );
 };

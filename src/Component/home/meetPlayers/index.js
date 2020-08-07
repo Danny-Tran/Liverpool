@@ -1,14 +1,19 @@
 import React, { Component } from 'react';
-import Stripes from '../../../Resources/images/stripes2.png';
+import Stripes from '../../../Resources/images/stripes.png';
+import { Tag } from '../../ui/misc'
 
-class MeetPlayer extends Component {
+class MeetPlayers extends Component {
+
+
     render() {
         return (
-            <div>
-                
+            <div className='home_meetplayers'
+                style={{background:`#ffffff url(${Stripes})`}}
+            >
+                testing
             </div>
         );
     }
 }
 
-export default MeetPlayer;
+export default MeetPlayers;
