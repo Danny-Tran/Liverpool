@@ -5,6 +5,7 @@ import Takumi from '../../../Resources/images/players/LP-Takumi Minamino.png'
 
 class Cards extends Component {
 
+    // state animation of cards
     state= {
         cards: [
             {
@@ -25,7 +26,7 @@ class Cards extends Component {
             }
         ]
     }
-
+//looping through state above and passing it to Animate
     showAnimeCards = () => (
         this.state.cards.map((card,i)=>(
             <Animate
