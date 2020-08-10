@@ -1,7 +1,7 @@
 import React from 'react';
 import PromoAnimation from './Animation'
 
-const Promo = () => {
+const Promotion = () => {
     return (
         <div className='promotion_wrapper' style={{background:'#ffffff'}}>
             <div className='container'></div>
@@ -10,4 +10,4 @@ const Promo = () => {
     );
 };
 
-export default Promo;
+export default Promotion;
