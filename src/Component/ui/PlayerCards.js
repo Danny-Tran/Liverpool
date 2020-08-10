@@ -2,8 +2,10 @@ import React from 'react';
 
 const PlayerCards = (props) => {
     return (
-        <div>
-            
+        <div className='player_card_wrapper'>
+            <div className='player_card_thmb'
+                style={{background:`#f2f9ff url(${props.bck})`}}
+            ></div>
         </div>
     );
 };

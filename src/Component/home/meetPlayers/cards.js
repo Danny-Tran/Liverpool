@@ -1,7 +1,8 @@
 import React, { Component } from 'react';
 import { easePolyOut } from 'd3-ease';
 import Animate from 'react-move/Animate';
-import Takumi from '../../../Resources/images/players/LP-Takumi Minamino.png'
+import Takumi from '../../../Resources/images/players/LP-Takumi.png'
+import PlayerCards from '../../ui/PlayerCards'
 
 class Cards extends Component {
 
@@ -53,7 +54,12 @@ class Cards extends Component {
                                 bottom,
                             }}
                         >
-                            div
+                            <PlayerCards
+                                number='18'
+                                name='Takumi'
+                                lastname='Minamino'
+                                bck={Takumi}
+                            />
                         </div>
                     )
                 }}
