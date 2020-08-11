@@ -30,6 +30,7 @@ class Enroll extends Component {
 
     updateForm = (element) => {
         console.log(element)
+        const newFormdata = {...this.state.formData}
     }
 
     submitForm = () => {
@@ -47,10 +48,10 @@ class Enroll extends Component {
 
                         {/* formfields are from ui reuseable component  */}
                         <div className='enroll_input'>
-                            {/* passing formData.email to FormFiel */}
+                            {/* passing formData.email to formDataEmail */}
                             <FormFields
                                 id={'email'}
-                                formData={this.state.formData.email}
+                                formDataEmail={this.state.formData.email}
                                 change = {(element) => this.updateForm(element)}
                             />
                         </div>

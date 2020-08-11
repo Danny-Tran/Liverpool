@@ -3,19 +3,19 @@ import React from 'react';
 
 // creating a formfield that can be reuse, just create state of the form and pass it through fromField,
 // check out enroll 
-const FormFields = ({formData,id,change}) => {
+const FormFields = ({formDataEmail,id,change}) => {
 
     const renderTemplate = () => {
         let formTemplate = null;
 
         // switch passing formData from class enroll state of config to create email input 
-        switch(formData.element){
+        switch(formDataEmail.element){
             case ('input'):
                 formTemplate = (
                     <div>
                         <input
-                            {...formData.config}
-                            value = {formData.value}
+                            {...formDataEmail.config}
+                            value = {formDataEmail.value}
                             onChange = {(event)=> change(event,id)}
                         />
                     </div>
