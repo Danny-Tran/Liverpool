@@ -16,7 +16,7 @@ const FormFields = ({formDataEmail,id,change}) => {
                         <input
                             {...formDataEmail.config}
                             value = {formDataEmail.value}
-                            onChange = {(event)=> change(event,id)}
+                            onChange = {(event)=> change({event,id})}
                         />
                     </div>
                 )
