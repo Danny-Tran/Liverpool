@@ -3,7 +3,7 @@ import React from 'react';
 // creating a reuseable match block that we will pass firebase through
 const MatchesBlock = ({match}) => {
 
-    console.log(match)
+    // console.log(match)
 
     return (
         <div className='match_block'>

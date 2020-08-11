@@ -5,6 +5,8 @@ import { firebaseLooper, newArray } from '../../ui/misc';
 import MatchesBlock from '../../ui/matches_block';
 import Slide from 'react-reveal/Slide';
 
+
+// getting match block from firebase
 class Blocks extends Component {
     
     state = {
