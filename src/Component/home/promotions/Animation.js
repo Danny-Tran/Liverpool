@@ -2,6 +2,8 @@ import React from 'react';
 import Zoom from 'react-reveal/Zoom'
 import Jersey from '../../../Resources/images/jersey.jpg'
 
+
+// Animation component using Zoom
 const PromoAnimation = () => {
     return (
         <div className='promotion_animation'>

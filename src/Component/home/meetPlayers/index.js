@@ -34,7 +34,7 @@ class MeetPlayers extends Component {
                         </div>
                             <div className='home_text_wrapper'>
                                 <div>
-                                    <Tag bck='#009688' size='100px' color='#ffffff'
+                                    <Tag bck='#72d6d6' size='100px' color='#ffffff'
                                         add={{
                                             display: 'inline-block',
                                             marginBottom: '20px',
@@ -44,7 +44,7 @@ class MeetPlayers extends Component {
                                 </Tag>
                                 </div>
                                 <div>
-                                    <Tag bck='#009688' size='100px' color='#ffffff'
+                                    <Tag bck='#72d6d6' size='100px' color='#ffffff'
                                         add={{
                                             display: 'inline-block',
                                             marginBottom: '20px',
@@ -54,17 +54,17 @@ class MeetPlayers extends Component {
                                 </Tag>
                                 </div>
                                 <div>
-                                    <Tag bck='#009688' size='100px' color='#ffffff'
+                                    <Tag bck='#72d6d6' size='100px' color='#ffffff'
                                         add={{
                                             display: 'inline-block',
                                             marginBottom: '20px',
                                         }}
                                     >
-                                        Players
+                                        Team
                                 </Tag>
                                 </div>
                                 <div>
-                                    <Tag bck='#ffffff' size='27px' color='#009688'
+                                    <Tag bck='#ffffff' size='27px' color='#01A396'
                                         link={true}
                                         linkto='/the_team'
                                         add={{
@@ -73,7 +73,7 @@ class MeetPlayers extends Component {
                                             border: '1px solid #000000'
                                         }}
                                     >
-                                        Meet Them Here
+                                        More
                                 </Tag>
                                 </div>
                             </div>

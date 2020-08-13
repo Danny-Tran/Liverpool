@@ -203,6 +203,7 @@ footer .footer_discl {
 .featured_first {
     position: absolute;
     background: #0e1731;
+    /* background: #01A396; */
     color: #ffffff;
     font-size: 92px;
     text-transform: uppercase;
@@ -212,6 +213,7 @@ footer .footer_discl {
 .featured_second {
     position: absolute;
     background: #0e1731;
+    /* background: #01A396; */
     color: #ffffff;
     font-size: 92px;
     text-transform: uppercase;
@@ -433,7 +435,7 @@ footer .footer_discl {
     position: relative;
 }
 .player_card_wrapper .player_card_number {
-    color: #d6ecfe;
+    color: #72d6d6;
     font-size: 185px;
     text-align: right;
     line-height: 160px;
