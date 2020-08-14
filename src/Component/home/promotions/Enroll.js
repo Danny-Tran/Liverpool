@@ -30,7 +30,6 @@ class Enroll extends Component {
 
     // setting formData to newFormData 
     updateForm = (element) => {
-        console.log(element)
         const newFormData = {...this.state.formData}
         const newElement = {...newFormData[element.id]}
 

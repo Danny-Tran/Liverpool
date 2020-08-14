@@ -5,7 +5,7 @@ import Animate from 'react-move/Animate';
 import featuredPlayer from '../../../Resources/images/Feature_player-Mo.png'
 
 class Text extends Component {
-
+//each animation manage a state of component
     animatedNumber = () => (
         <Animate
             show={true}
