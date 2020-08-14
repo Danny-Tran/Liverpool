@@ -4,7 +4,7 @@ import Matches from './matches/Matches';
 import MeetPlayers from './meetPlayers';
 import Promotion from './promotions'
 
-// Home page for feature player and matches from firebase
+// Home page with all the major components
 const Home = () => {
     return (
         <div className='bck_blue'>
