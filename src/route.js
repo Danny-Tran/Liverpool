@@ -5,6 +5,7 @@ import Home from './Component/home/Home.js'
 
 const Routes = (props) => {
   return (
+    //used switch from router to keep header and header become highOrder
     <Layout>
       <Switch>
         <Route exact component={Home} path='/'/>

@@ -203,7 +203,6 @@ footer .footer_discl {
 .featured_first {
     position: absolute;
     background: #0e1731;
-    /* background: #01A396; */
     color: #ffffff;
     font-size: 92px;
     text-transform: uppercase;
@@ -213,7 +212,6 @@ footer .footer_discl {
 .featured_second {
     position: absolute;
     background: #0e1731;
-    /* background: #01A396; */
     color: #ffffff;
     font-size: 92px;
     text-transform: uppercase;
