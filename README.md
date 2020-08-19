@@ -10,7 +10,7 @@ Created Liverpool FC fan website, where users can get match information live, bu
 
 ### Screenshots 
 
-![Liverpool app gif] (https://github.com/Danny-Tran/Liverpool/blob/master/src/Resources/images/Liverpool-gif.gif)
+* ![](https://github.com/Danny-Tran/Liverpool/blob/master/src/Resources/images/featured_player.png)
 
 ## Dependencies
 
