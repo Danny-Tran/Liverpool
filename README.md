@@ -8,7 +8,7 @@ Created Liverpool FC fan website, where users can get match information live, bu
 4. The app will be served at http://localhost:3000.
 
 
-### Screenshots 
+### App Demo
 
 ![](https://github.com/Danny-Tran/Liverpool/blob/master/src/Resources/images/Liverpool-gif.gif)
 
