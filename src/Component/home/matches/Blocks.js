@@ -24,6 +24,7 @@ class Blocks extends Component {
         })
     }
     
+    //passing matches info to matchblock component
     showMatches = (matches) => (
         matches ?
             matches.map((match)=>(
