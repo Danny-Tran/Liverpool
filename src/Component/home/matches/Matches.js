@@ -8,7 +8,7 @@ const Matches = () => {
     return (
         <div className= 'home_matches_wrapper'>
             <div className= 'container'>
-                {/* reuseable component from MISC FOLDER */}
+                {/* reuseable component from MISC FOLDER that will display match tag*/}
                 <Tag
                     bck= '#541818'
                     size= '50px'
@@ -19,7 +19,8 @@ const Matches = () => {
                 >
                 Matches
                 </Tag>
-
+                
+                {/* block component to render match block */}
                 <Blocks/>
 
                 <Tag

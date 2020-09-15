@@ -37,6 +37,7 @@ class Text extends Component {
         </Animate>
     );
 
+    
     animateFirst = () => (
         <Animate
             show={true}
