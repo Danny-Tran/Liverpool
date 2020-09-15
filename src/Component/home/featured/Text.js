@@ -37,7 +37,7 @@ class Text extends Component {
         </Animate>
     );
 
-    
+    // animation of 'league component'
     animateFirst = () => (
         <Animate
             show={true}
