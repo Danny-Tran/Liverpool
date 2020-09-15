@@ -38,6 +38,9 @@ class Text extends Component {
     );
 
     // animation of 'league component'
+
+            // NEED TO REFRACTOR TO LOOP THROUGH EACH ANIMATE
+
     animateFirst = () => (
         <Animate
             show={true}
