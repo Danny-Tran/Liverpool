@@ -5,6 +5,7 @@ import Animate from 'react-move/Animate';
 class Stripes extends Component {
     
     state = {
+        // need to create a loop for 3 stripe
         stripes: [
             {
                 background: '#cc0033',
