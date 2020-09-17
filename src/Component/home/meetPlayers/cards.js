@@ -28,6 +28,7 @@ class Cards extends Component {
         ]
     }
 //looping through state above and passing it to Animate
+// only use one pictrue atm need to assign an array of pictrue
     showAnimeCards = () => (
         this.state.cards.map((card,i)=>(
             <Animate

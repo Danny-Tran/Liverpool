@@ -4,6 +4,8 @@ import { Tag } from '../../ui/misc';
 import Reveal from 'react-reveal/Reveal';
 import Cards from './cards'
 
+
+// Meet player component that use cards component 
 class MeetPlayers extends Component {
 
     state = {
