@@ -7,6 +7,7 @@ import PlayerCards from '../../ui/PlayerCards'
 class Cards extends Component {
 
     // state animation of cards
+    // TODOS: 
     state= {
         cards: [
             {
@@ -27,7 +28,7 @@ class Cards extends Component {
             }
         ]
     }
-//looping through state above and passing it to Animate
+//// TODOS: looping through state above and passing it to Animate
 // only use one pictrue atm need to assign an array of pictrue
     showAnimeCards = () => (
         this.state.cards.map((card,i)=>(
