@@ -5,7 +5,7 @@ import Reveal from 'react-reveal/Reveal';
 import Cards from './cards'
 
 
-// Meet player component that use cards component 
+// Meet player component that used cards component imported from above.  
 class MeetPlayers extends Component {
 
     state = {
