@@ -35,7 +35,7 @@ class Cards extends Component {
             <Animate
                 key={i}
                 show={this.props.show}
-
+                // animation enter and change to state.card
                 start={{
                     left:0,
                     bottom:0,
